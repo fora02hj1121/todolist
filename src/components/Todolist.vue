@@ -17,10 +17,12 @@
                 <li class="todo_list_tit"><p>할 일</p></li>
                 <li class="del_btn" v-for="(item, index) in todolist" :key="index">
                     <p><input type="checkbox" name="check1" value="">{{item.todo}}</p>
+					<!--
                     <ul class="todo_list_btn">
                         <li><button>수 정</button></li>
                         <li><button>삭 제</button></li>
                     </ul>
+						-->	
                 </li>
             </ul>
             <!--// ul.todo_list -->
@@ -41,7 +43,7 @@ export default {
 			  {todo:"교안 쓰기"},
 			  {todo:"과제하기"},
 			  {todo:"운동하기"},
-			  {todo:"요리하기"},
+			  {todo:"온라인 수업하기"},
 		  ]
 	  }	    
   }, 
